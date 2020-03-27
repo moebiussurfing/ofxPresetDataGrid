@@ -2,7 +2,10 @@
 ## ofxPresetDataGrid
 
 This is an addon helper based on https://github.com/npisanti/ofxGuiPresetSelector.
-created to handle presets into my other addon https://github.com/moebiussurfing/ofxStepSequencer.
+
+Created to handle presets into my other addon:
+
+https://github.com/moebiussurfing/ofxStepSequencer.
 
 Thanks a lot to @npisanti, Nicola Pisanti, MIT License 2016.
 
