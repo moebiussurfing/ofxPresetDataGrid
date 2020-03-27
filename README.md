@@ -19,7 +19,7 @@ Changes by MoebiusSurfing in this fork:
 ## Required addons:
 
 * ofxJsonUtils
-* ofxGuiExtended.
+* ofxGuiExtended2.
 
 
 Added a custom class: "DataGrid.h / .cpp". 
