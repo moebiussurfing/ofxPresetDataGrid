@@ -31,6 +31,24 @@ DataGrid::DataGrid()
 }
 
 //------------------------------------------------
+void DataGrid::setup(int nNotes, int nBeats)///for custom grid sizes
+{
+	//init data vector
+	grid.clear();
+	grid.resize(nNotes);
+
+	for (int i = 0; i < grid.size(); i++)
+	{
+		grid[i].resize(nBeats);
+
+		for (int j = 0; j < grid[i].size(); j++) //init
+		{
+			grid[i][j] = 0;
+		}
+	}
+}
+
+//------------------------------------------------
 void DataGrid::setName(const std::string _name){
     name = _name;
 }

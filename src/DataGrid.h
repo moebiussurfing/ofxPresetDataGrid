@@ -19,6 +19,10 @@ public:
     std::string name;
     int	id;
 
+	void setup(int nNotes, int nBeats);///for custom grid sizes
+	int NumSeqNotes = 12;
+	int NumSeqBeats = 16;
+
     //-
 
     // DATA
